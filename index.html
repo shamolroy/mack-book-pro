@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="product-area">
+    <!-- product purchase details  -->
+    <section class="product-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -43,7 +44,7 @@
                             <table>
                                 <tr>
                                     <td class="left-features">Best Price</td>
-                                    <td><span>$1299</span></td>
+                                    <td>$<span id="mainprice">1299</span></td>
                                 </tr>
                                 <tr>
                                     <td class="left-features">Extra Memory Cost</td>
@@ -63,11 +64,24 @@
                                 </tr>
                             </table>
                         </div>
+                        <div class="promocode-area">
+                            <h2>Add Promo Code</h2>
+                            <input type="text" id="promofield">
+                            <button type="text" id="promo-button">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product footer total price  -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bottom-total-price">
+                        <p>Total: $<span id="bottom-price">1299</span></p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <script src="js/mack.js"></script>
 </body>
 </html>

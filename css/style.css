@@ -13,7 +13,7 @@ img{
     max-width:100%;
 }
 .product-area{
-	padding:60px 0;
+	padding:60px 0 40px 0;
 }
 .product-image {
 	text-align: center;
@@ -36,9 +36,11 @@ button {
 	margin-right: 10px;
 	font-weight: 300;
     margin-bottom:10px;
+	font-size:15px;
 }
 .memory-area {
 	padding-bottom: 20px;
+	padding-top:30px;
 }
 .storage-area {
 	padding-bottom: 20px;
@@ -51,10 +53,48 @@ table tr td {
 	font-weight: 500;
 	margin: 8px 0;
 	display: inline-block;
+	padding:0 15px;
 }
 table tr td:first-child {
 	width: 195px;
 }
+table tr td:last-child {
+	width: 90px;
+}
 tr:last-child {
 	border-top: 2px solid #000;
+}
+.promocode-area {
+	padding-top: 20px;
+}
+.promocode-area h2 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.promocode-area input {
+	height: 45px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 206px;
+	font-size: 16px;
+	outline:none;
+	padding:0 15px
+}
+#promo-button {
+	padding: 0 18px;
+	width: auto;
+	height: 45px;
+	background: #DC3545;
+	color: #FFF;
+	border-color: #DC3545;
+}
+.bottom-total-price {
+	text-align: center;
+	margin-top: 15px;
+	border-top: 1px solid #CCC;
+	padding-top: 22px;
+}
+.bottom-total-price p {
+	font-size: 40px;
+	font-weight: 500;
 }
