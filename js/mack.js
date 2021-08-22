@@ -50,6 +50,7 @@ function update(){
     totalPrice.innerText = mackBookTotalPrice;
     bottomTotalPrice.innerText = mackBookTotalPrice;
 }
+//promo code
 document.getElementById('promo-button').addEventListener('click',function(){
 	const promoField = document.getElementById('promofield');
 	const promoInput = promoField.value;
